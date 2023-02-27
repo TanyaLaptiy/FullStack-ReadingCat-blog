@@ -1,0 +1,62 @@
+.menu {
+  width: 200px;
+  position: sticky;
+  top: 80px;
+  margin-left: auto;
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      margin-bottom: 4px;
+    }
+  }
+}
+
+.passive {
+  margin-bottom: 4px;
+  button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    text-transform: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    box-shadow: none;
+    color: rgb(46, 163, 192);
+
+    span[class*='MuiButton-label'] {
+      display: flex;
+      align-items: center;
+    }
+
+    svg {
+      margin-right: 10px;
+    }
+  }
+}
+.active {
+  margin-bottom: 4px;
+  button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    text-transform: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    box-shadow: none;
+    color: rgb(0, 0, 0);
+
+    span[class*='MuiButton-label'] {
+      display: flex;
+      align-items: center;
+    }
+
+    svg {
+      margin-right: 10px;
+    }
+  }
+}
